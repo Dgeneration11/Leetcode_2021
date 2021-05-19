@@ -24,3 +24,15 @@ public:
         return count;       
     }
 };
+
+/* Amorther approach is by using two pointers 
+which will be pointing towards to the first and last eleemnt in the array.
+We can calculate the sum by taking the difference of first and last ele. */
+/* 
+int x = 0, y = nums.size()-1;
+while(x<y){
+    count = count + nums[j] - nums[i];
+    i++;
+    j--;
+}
+return count; */
