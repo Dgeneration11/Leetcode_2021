@@ -19,8 +19,7 @@ public:
         int vert_area = 0;
         for(int i=1; i<vert.size(); i++){
             vert_area = max(vert_area, abs(vert[i] - vert[i-1]));
-        }
-                            
+        }                   
         return (long long)hori_area * (long long)vert_area  % (long long)(pow(10, 9)+7);
                             
     }
